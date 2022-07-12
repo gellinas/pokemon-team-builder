@@ -1,0 +1,32 @@
+.filter-menu {
+  display: flex;
+  margin: 1rem;
+  width: 86vw;
+  justify-self: center;
+}
+
+.filter-menu .MuiOutlinedInput-root {
+  color: white;
+}
+
+.filter-menu .MuiSvgIcon-root {
+  color: white;
+}
+.filter-menu
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
+
+.filter-menu .MuiFormLabel-root.Mui-focused {
+  color: white;
+}
+
+.filter-menu label {
+  color: white;
+}
+
+.MuiPaper-root ul {
+  color: white;
+  background-color: #3d3d3df5;
+}

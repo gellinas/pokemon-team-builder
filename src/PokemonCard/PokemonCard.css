@@ -1,0 +1,122 @@
+.card-container {
+  display: flex;
+  width: 18vw;
+  height: 45vh;
+  border-radius: 10px;
+  margin: 0.75rem;
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(70, 70, 70, 1) 100%
+  );
+  padding: 0.5rem;
+  border: 5px solid white;
+  cursor: pointer;
+}
+
+.content-container {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  text-transform: uppercase;
+  width: 18vw;
+  height: 45vh;
+}
+.card-container .content-container {
+  padding: 0;
+}
+
+.card-container .content-container:last-child {
+  padding: 0;
+}
+
+.poke-sprite {
+  align-self: center;
+  height: 15vw;
+}
+.content-container img {
+  height: 20vh;
+}
+
+.content-container .MuiAvatar-root {
+  height: 20vh;
+  width: 12vw;
+  align-self: center;
+  border-radius: 0;
+}
+
+.poke-name {
+  align-self: center;
+  font-size: 1.75rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40vh;
+  width: 18vw;
+  font-size: 0.85rem;
+}
+
+.t-w-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 16vw;
+}
+
+.content-container .MuiChip-outlined {
+  color: white;
+  border: 1px solid white;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.types {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+}
+
+.render-types {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.line {
+  background-color: white;
+  height: 100%;
+  width: 3.5px;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.weight {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.moves {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.render-moves {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-top: 4px;
+}
+
+.team-pokemon {
+  border: 8px solid #ffcb05;
+}

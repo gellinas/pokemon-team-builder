@@ -1,0 +1,40 @@
+.current-team-container {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90vw;
+  margin-left: 10vw;
+}
+
+.team-header {
+  display: flex;
+  font-size: 3.5rem;
+  margin: 2rem;
+}
+
+.team-selected {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 90vw;
+}
+
+.no-pokemon-team {
+  display: flex;
+  margin: 2rem;
+  font-size: 2em;
+}
+
+.clear-button.MuiButton-root {
+  border-color: #ffcb05;
+  color: #ffcb05;
+  width: 15vw;
+  margin: 5px;
+}
+
+.MuiDialogActions-root .MuiButton-root.MuiButton-text {
+  background-color: #ffcb05;
+}
